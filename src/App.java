@@ -8,5 +8,6 @@ public class App {
         String URL = properties.getProperty("URL");
         PessoaService service = new PessoaService(URL);
         service.listar();
+        
     }
 }
